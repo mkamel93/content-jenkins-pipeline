@@ -18,7 +18,7 @@ pipeline{
 		stage('run'){
 		steps{
 			sh 'echo running Java Code'
-			sh 'java -jar rectangle.jar 7 10'
+			sh 'java -jar rectangle.jar 8 10'
 			
 			}
 		}
